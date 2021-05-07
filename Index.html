@@ -4,35 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>DolphinSoft</title>
+    <link rel="shortcut icon" type="image/x-icon" href="img/logo2.png">
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Itim&family=Oswald:wght@500&display=swap" rel="stylesheet">
+    
 </head>
 <body>
+    
     <div class="header">
         <div class="center">
             <div class="logo"><img src="img/logo2.png" alt=""></div>
             <div class="menu">
                 <ul>
-                    <li><a href="#">Quienes somos</a></li>
-                    <li><a href="#">Visión</a></li>
-                    <li><a href="#">Misión</a></li>
-                    <li><a href="#">Contactanos</a></li>
+                    <li><a href="#QuienesSomos">Quienes somos</a></li>
+                    <li><a href="#Vision">Visión</a></li>
+                    <li><a href="#Mision">Misión</a></li>
+                    <li><a href="#Contactanos">Contactanos</a></li>
                 </ul>
             </div>
         </div>
     </div>
     <div class="container">
+        <div id="QuienesSomos" class="espacio"></div>
         <div class="box">
             <div class="titulo">
                 <h1>Quienes somos</h1>
             </div>
-            <div class="cuerp0">
+            <div class="crp">
                 <div class="img2">
                     <img src="img/unnamed.png" alt="">
                 </div>
-                <div class="text">
+                <div class="txt">
                     <p>Dolphin software somos un pequeña empresa desarrolladora de software
                     el cual brinda servicios de creacion de 
                     <li>creacion de sistema de ventas, planillas ,almacen de producto </li>
@@ -52,7 +56,7 @@
                     <div class="foto"><img src="img/Sin título.png" alt=""></div>
                     <div class="inf">
                         <h3>Gabriel Alegria</h3>
-                        <h5>Cargo: User Interface</h5>
+                        <h5>Cargo: UI</h5>
                         <h5>correo:<a href="mailto:CA19040@ues.edu.sv?Subject=Interesado%20en%20su%20servicios"> CA19040@ues.edu.sv</a></h5>
                     </div>
                 </div>
@@ -60,7 +64,7 @@
                     <div class="foto"><img src="img/berto.png" alt=""></div>
                     <div class="inf">
                         <h3>Carlos Posada</h3>
-                        <h5>Cargo: Administrador de DB</h5>
+                        <h5>Cargo: DBA</h5>
                         <h5>correo:<a href="mailto:PG19029@ues.edu.sv?Subject=Interesado%20en%20su%20servicios"> PG19029@ues.edu.sv</a></h5>
                     </div>
                 </div>
@@ -68,7 +72,7 @@
                     <div class="foto"><img src="img/rey.png" alt=""></div>
                     <div class="inf">
                         <h3>Reynaldo Panameño</h3>
-                        <h5>Cargo: Desarrollador</h5>
+                        <h5>Cargo: Developer</h5>
                         <h5>correo:<a href="mailto:PR19004@ues.edu.sv?Subject=Interesado%20en%20su%20servicios"> PR19004@ues.edu.sv</a></h5>
                     </div>
                 </div>
@@ -77,11 +81,12 @@
                     <div class="inf">
                         <h3>Miguel Ayala</h3>
                         <h5>Cargo: Scrum Master</h5>
-                        <h5>correo:<a href="#"> AB19027@ues.edu.sv</a></h5>
+                        <h5>correo:<a href="mailto:AB19045@ues.edu.sv?Subject=Interesado%20en%20su%20servicios"> AB19015@ues.edu.sv</a></h5>
                     </div>
                 </div>
             </div>
         </div>
+        <div id="Vision" class="espacio"></div>
         <div class="box">
             <div class="titulo">
                 <h1>Visión</h1>
@@ -91,11 +96,14 @@
                     <img src="img/vision.png" alt="">
                 </div>
                 <div class="text">
-                
+                   <p>Nuestra Visión es ser un empresa que llegue lejos que sea capaz de tomar acciones y ser capaz de concruir si pesar la dificultal ni el tiempo
+                       de ser de las mejores del pais de poder dar trabajo a mas gente de poder tener gente en todas la ramas de la tecnologia 
+                   </p>
                 </div>
             </div>
-        </div>   
-        <div class="box">
+        </div>  
+        <div id="Mision" class="espacio"></div> 
+        <div  class="box">
             <div class="titulo">
                 <h1>Misión</h1>
             </div>
@@ -103,12 +111,44 @@
                 <div class="img">
                     <img src="img/423b71898433fa8bae318767035b57bd.png" alt="">
                 </div>
-                <div class="text"></div>
+                <div class="text">
+                    <p>Nuestra Misión es llegar hacer empresa de primer nivel de poder trabajar con empresas de alto nombre de cada trabajo entregado
+                        los clientes este sastifecho de cada empleado este conforme con su rol y su paga de crear 
+                    </p>
+                
+                </div>
             </div>
         </div>
-        <div class="box"></div>
+        <div id="Contactanos" class="espacio"></div>
+        <div class="box">
+            <div class="titulo">
+                <h1>Contactanos</h1>
+            </div>
+            <div class="contacto">
+                <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+                    <div class="row">
+                        <label class="required" for="name">Tu Nombre:</label><br />
+                        <input id="name" class="input" name="name" type="text" value="" size="50" /><br />
+                        <span id="name_validation" class="error_message"></span>
+                    </div>
+                    <div class="row">
+                        <label class="required" for="email">Tu E-Mail:</label><br />
+                        <input id="email" class="input" name="email" type="text" value="" size="50" /><br />
+                        <span id="email_validation" class="error_message"></span>
+                    </div>
+                    <div class="row">
+                        <label class="required" for="message">Tu Mensaje:</label><br />
+                        <textarea id="message" class="input" name="message" rows="15" cols="75"></textarea><br />
+                        <span id="message_validation" class="error_message"></span>
+                    </div>
+                    <input id="submit_button" type="submit" value="Enviar E-Mail" />
+                </form>
+            </div>
+        </div>
 
     </div>
-    <div class="footer"></div>
+    <div class="footer">
+        <p class="copyright">DolphinSoft © 2021 | Derechos de autor</p>
+    </div>
 </body>
 </html>
