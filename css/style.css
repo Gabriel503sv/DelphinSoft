@@ -246,4 +246,8 @@ body{
     .input{
         width: 80%;
     }
+    .menu li{
+        font-size: 16px;
+        width: 70px;
+    }
 }
