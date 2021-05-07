@@ -1,0 +1,132 @@
+/*header*/
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #e2e2e2;
+    
+}
+.header{
+    width: 100%;
+    height: auto;
+    display: flex;
+
+    justify-content: center;
+    background-color: black;
+    
+    
+}
+.center{
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.menu,.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 120px;
+    height: 80px;
+}
+.menu{
+    flex: 1 1 auto;
+}
+.logo{
+    flex: 3 1 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.menu ul{
+    display: flex;
+}
+
+.menu li{
+    text-align: center;
+    display: block;
+    margin: 0 5px;
+    font-size: 30px;
+    width: 200px;
+    font-family: 'Itim', cursive;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+}
+
+.menu li:hover{
+    background-color: cadetblue;
+    border-radius: 10px  ;
+}
+
+/*body*/
+
+.container{
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    
+    
+    
+}
+
+.titulo h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 32px;
+}
+
+.box{
+    width: 70%;
+    height: auto;
+    margin: 2.5px auto;
+    text-align: center;
+   
+}
+.cuerpo{
+    display: flex;
+}
+
+.img2 img{
+    width: 900px;
+    height: 300px;
+}
+.img2{
+    margin: 0 auto;
+} 
+.img img{
+    width: 300px;
+    height: 200px;
+    margin: 5px;
+}
+
+.Equipo{
+    display: flex;
+}
+
+.int{
+    box-sizing: border-box;
+    margin: 2px;
+    width: 24%;
+    height: 300px;
+    border: 1px solid #eeeeee;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 40%);
+    background-color: white;
+    padding: 10px;
+
+}
+
+.foto img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.inf h3{
+    color: rgb(5, 5, 145)
+}
+
+
+
+
+
+/*footer*/
