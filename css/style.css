@@ -99,7 +99,7 @@ body{
 }
 
 .img2 img{
-    width: 900px;
+    width: 80%;
     height: 300px;
 }
 .img2{
@@ -168,4 +168,74 @@ body{
     
 }
 
+/*Dispositivos Moviles*/
+@media screen and (max-width: 1000px){
+    /*header*/
+    .center{
+        width: 100%;
 
+    }
+    .logo img{
+        display: none;
+    }
+
+    .logo{
+        flex: 0 0 0;
+    }
+
+    .menu li{
+        font-size: 20px;
+        width: 70px;
+    }
+    .menu ul{
+        padding-inline-start: 0px;
+    }
+    /*body*/
+    .box{
+        width: 100%;
+    }
+    .espacio{
+        height: 60px;
+
+    }
+    .img2 img{
+        width: 90%;
+        height: 300px;
+    }
+    .Equipo,.crp{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .int {
+        flex: 0 0 48%;
+    }
+    .txt{
+        text-align: justify;
+    }
+    .cuerpo{
+        flex-wrap: wrap;
+        margin: 0 2px;
+    }
+    .contacto,.text,.txt{
+        width: 90%;
+        max-width: 400px;
+    }
+    .box-2{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .titulo2{
+        flex: 0 0 100%;
+    }
+
+}
+@media screen and (max-width: 600px){
+    .int {
+        flex: 0 0 60%;
+    }
+}
