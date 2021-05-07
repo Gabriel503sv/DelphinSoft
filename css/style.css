@@ -151,7 +151,9 @@ body{
 
 }
 
-
+.input{
+    width: 40%;
+}
 
 
 
@@ -232,10 +234,16 @@ body{
     .titulo2{
         flex: 0 0 100%;
     }
+    .input{
+        width: 70%;
+    }
 
 }
 @media screen and (max-width: 600px){
     .int {
         flex: 0 0 60%;
+    }
+    .input{
+        width: 80%;
     }
 }
